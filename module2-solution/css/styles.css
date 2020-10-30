@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+}
+
+#box{
+
+    background-color: darkturquoise;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+#psushi{
+    background-color: yellow;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    position: relative;
+    margin: 0%;
+    margin-left: 70%;
+    width: 30%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+#pbeef{
+    background-color: red;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    position: relative;
+    margin: 0%;
+    margin-left: 70%;
+    width: 30%;
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+#pchiken{
+    background-color: palevioletred;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    position: relative;
+    margin: 0%;
+    margin-left: 70%;
+    width: 30%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#pex{
+    border: 3px solid black;
+    text-align: justify;
+	font-weight: bold;
+	font-size: 100%;
+    padding: 0;
+    background-color: darkgrey;
+    float: left;
+}
+
+#ptex{
+   padding: 5%;
+}
+
+
+
+
+
+
+/*desktop version*/
+@media (min-width: 992px){
+    .col-md-4 {
+        margin-left: 2.5%;
+        float: left;
+        width: 30%;
+    }
+      
+}
+
+
+  
