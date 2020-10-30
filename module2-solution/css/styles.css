@@ -85,7 +85,7 @@ h1{
         float: left;
         width: 30%;
     }
-
+}
         /*tablet version*/
 @media (min-width: 768px) and (max-width: 991px){
     .col-md-6 {
@@ -110,7 +110,7 @@ h1{
     }
     }    
       
-}
+
 
 
   
