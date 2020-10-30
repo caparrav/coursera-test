@@ -85,6 +85,30 @@ h1{
         float: left;
         width: 30%;
     }
+
+        /*tablet version*/
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6 {
+        float: left;
+        margin-left: 4%;
+        width: 44%;
+    }
+        
+    .col-md-12_2 {
+        margin-top: 4%;
+        margin-left: 4%;
+        width: 92%;
+    }
+        
+    }
+        /*mobile version*/
+    @media (max-width: 767px){
+        .col-md-12 {
+            margin-left: 4%;
+            margin-bottom: 4%;
+            width: 92%;            
+    }
+    }    
       
 }
 
